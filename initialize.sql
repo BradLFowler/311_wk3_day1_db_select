@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS users2;
 
-CREATE TABLE users (
+CREATE TABLE users2 (
   id INT NOT NULL AUTO_INCREMENT,
   first_name VARCHAR(50),
   last_name VARCHAR(50),
@@ -16,7 +16,7 @@ CREATE TABLE users (
   web VARCHAR(50),
   PRIMARY KEY(id)
 );
-INSERT INTO users
+INSERT INTO users2
 	(first_name, last_name, company_name, address, city, county, state, zip, phone1, phone2, email, web)
 VALUES 
   ("James","Butt","Benton, John B Jr","6649 N Blue Gum St","New Orleans","Orleans","LA",70116,"504-621-8927","504-845-1427","jbutt@gmail.com","http://www.bentonjohnbjr.com"),
